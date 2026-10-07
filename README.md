@@ -98,7 +98,7 @@ asl_fingerspelling_classifier/
 │   ├── datasets/
 │   │   ├── mnist.py          # Dataset + get_dataloaders(cfg)
 │   │   ├── asl_alphabet.py   # (phase 2)
-│   │   └── transforms.py     # shared preprocess() used by train/eval/webcam
+│   │   └── transforms.py     # train/eval transforms per dataset; get_transform(dataset, is_train) used by train/eval/webcam
 │   ├── models/
 │   │   ├── __init__.py       # registry: get_model(name, **kw)
 │   │   ├── logistic.py
