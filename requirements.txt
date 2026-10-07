@@ -1,1 +1,28 @@
-kagglehub>=1.0.2
+# Python 3.14
+
+# Deep learning
+torch==2.14.1
+torchvision==0.29.1
+
+# Data + metrics
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+
+# Plotting
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Webcam + hand landmarks
+opencv-contrib-python==5.0.0.93
+mediapipe==1.1.0
+
+# Data download + configs + progress bars
+kagglehub==1.0.2
+pyyaml==6.0.3
+tqdm==4.70.1
+
+# Notebooks
+jupyter==1.1.1
+ipykernel==7.4.0
+nbstripout==0.9.1
